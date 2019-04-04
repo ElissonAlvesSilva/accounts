@@ -2,11 +2,6 @@
   "name": "accounts",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -15,6 +10,12 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8",
+    "design-system-styles": "https://github.com/ElissonAlvesSilva/design-system-styles.git"
   },
   "browserslist": [
     ">0.2%",
